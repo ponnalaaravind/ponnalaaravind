@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;800&display=swap');
+*{
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f4f9 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.primary-color{
+    color: #f05d7b;
+}
+.secondary-color{
+    color: #071e48 !important;
+}
+.bg-dark{
+    background-color: #000000;
+    color: #ffffff;
+}
+.title{
+    margin-top: 150px;
+}
+button{
+    cursor: pointer;
+}
+button:focus{
+    outline: none !important;
+}
+.cover-img{
+    width: 100%;
+    margin-top: 30px;
+}
+.cv-button{
+    background-color: #f05d7b;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.scroll:hover{
+    animation-play-state: paused;
+}
+/* skills */
+.skill-text{
+    display: inline-block;
+    padding-left: 10px;
+}
+.skills-img{
+    display: inline-block;
+    width: 50px;
+    height: auto;
+}
+.skills-img>svg{
+    display: inline;
+}
+.skills{
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+.skill-list{
+    padding-left: 100px !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+/* experience */
+.experience-list{
+    padding-top: 30px;
+    padding-left: 3rem;
+}
+.experience-inside{
+    background-color: #ffffff;
+    padding: 20px;
+}
+/* projects */
+.project-body{
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+.project-list{
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+/* contact-section */
+.contact-me{
+    margin-top: 50px;
+}
+.contact-container{
+    padding-top: 50px;
+}
+.contact-about{
+    padding-top: 50px;
+}
+.btn-submit{
+    background-color: #f05d7b;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+/* footer */
+.footer-container{
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-about>tbody>tr>td{
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.social-media-links{
+    list-style-type: none;
+    padding-left: 0px !important;
+}
+.social-media-links>li{
+    display: inline-block;
+}
+.social-media-links>li>i{
+    padding: 10px 20px 0px 0px; 
+    font-size: 25px;
+}
+@media only screen and (max-width : 768px){
+    .cover-img{
+        margin-top: 20px;
+    }
+    .scroll{
+        display: none;
+    }
+    .title{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .skills{
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    .skill-list{
+        padding: 20px 0px 20px 20px !important;
+    }
+    .project-body{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .contact-about>tbody>tr>td{
+        padding-right: 30px;
+    }
+    .project-list{
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    .experience{
+        margin-top: 15px;
+    }
+    .experience-list{
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+}
